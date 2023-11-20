@@ -3,7 +3,10 @@ Telegram bot for calculate calories
 
 ## Quick start
 1. Install dependencies
-`poetry install`
+```bash
+poetry install
+cat db.sql | sqlite3 db.sqlite3
+```
 
 
 ## Development
