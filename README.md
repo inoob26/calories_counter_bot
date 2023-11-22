@@ -1,10 +1,18 @@
 # calories_counter_bot
 Telegram bot for calculate calories
 
+## Commands
+
+- /help - show help message
+
 ## Quick start
 1. Install dependencies
 ```bash
+poetry config virtualenvs.in-project true # optional
 poetry install
+```
+2. init db
+```bash
 cat db.sql | sqlite3 db.sqlite3
 ```
 
